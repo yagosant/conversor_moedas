@@ -73,7 +73,7 @@ class _HomeState extends State<Home> {
     dolarController.text = (euro * this.euro / dolar).toStringAsFixed(2);
   }
 
-  //funcao para limpar os campos
+  //funcao para limpar os campos de moedas
   void _clearAll(){
     realController.text = "";
     dolarController.text = "";
